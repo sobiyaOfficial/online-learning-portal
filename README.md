@@ -71,6 +71,7 @@ Follow the steps below to set up the project locally:
 
 # Workflow
     The workflow for the Online Learning Portal project is as follows:
+    
 
 ## 1.Requirement Gathering:
     Understand the key functionalities needed for the portal (e.g., user authentication, course management, etc.).  
