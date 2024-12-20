@@ -74,8 +74,30 @@ Follow the steps below to set up the project locally:
 
 ## 1.Requirement Gathering:
     Understand the key functionalities needed for the portal (e.g., user authentication, course management, etc.).  
+## 2.Design:
+    -Create wireframes for user interfaces.
+    -Define database schema and application architecture.
 
-    ![image](https://github.com/user-attachments/assets/565a3352-d0aa-4702-90de-c5af8c973225)
+## 3.Development:
+    Set up the environment and dependencies.
+    Implement features incrementally (e.g., authentication, course management, etc.).
+    Perform unit testing to ensure code quality.      
+## 4.Integration:
+   - Integrate frontend and backend components.
+   - Connect the application to the database.
+   - Ensure seamless interaction between features.
+
+## 5.Testing:
+    Conduct end-to-end testing to identify and resolve bugs.
+    Validate responsiveness and performance on multiple devices.
+
+## 6.Deployment:
+    Deploy the application on a hosting platform (e.g.vercel).
+    Monitor and maintain the application post-deployment.
+
+## 7.Feedback and Iteration:
+    Collect user feedback to identify areas for improvement.
+    Update features and fix issues based on feedback.    
 
 
     
@@ -83,9 +105,19 @@ Follow the steps below to set up the project locally:
 # 🔗Challenges
 
 ## 1.Course Rating with Tooltip:
-      - Implementing a user-friendly tooltip feature for course ratings.
-      - Ensuring the tooltip displays relevant feedback and integrates smoothly with the UI.
-      -Addressing performance concerns when rendering large numbers of ratings.      
+        - Implementing a user-friendly tooltip feature for course ratings.
+        - Ensuring the tooltip displays relevant feedback and integrates smoothly with the UI.
+        -Addressing performance concerns when rendering large numbers of ratings.  
+
+## Contact📞✉️
+
+For questions or suggestions, please contact us at:
+Email: sobiya204@gmail.com
+phone no:6379842348
+
+We hope you enjoy using and contributing to the Online Learning Portal! Thank you for being a part of this journey.
+
+        
 
 
       
