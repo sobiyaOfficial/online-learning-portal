@@ -86,3 +86,42 @@ form a{
     text-decoration: none;
     color: blue;
 }
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        box-shadow: none;
+    }
+    .register{
+        padding: 10px;
+    }
+    form {
+        margin-left: 0;
+        width: 100%;
+    }
+    .company{
+        display: none;
+    }
+    form input,
+    form button {
+        width: 100%;
+    }
+    form h3 {
+        font-size: 20px;
+    }
+
+    form p {
+        font-size: 16px;
+    }
+    .name{
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .logo img{
+        width: 60%;
+        height: auto;
+        margin: 10px auto;
+        
+    }
+}

@@ -98,3 +98,55 @@ form{
     text-decoration: none;
     color: white;
 } */
+
+@media screen and (max-width: 600px){
+    .container{
+        flex-direction: column;
+        width: 95%;
+        height: auto;
+        box-shadow: none;
+        overflow: hidden;
+    }
+    body{
+        overflow: hidden;
+    }
+    
+        .loginbox {
+            padding: 10px;
+            overflow: hidden;
+        }
+    
+        form {
+            margin-left: 0;
+            width: 100%;
+        }
+    
+        form input,
+        form button {
+            width: 100%;
+        }
+    
+        form h3 {
+            font-size: 20px;
+        }
+    
+        form p {
+            font-size: 14px;
+        }
+    
+        .company1 img {
+            width: 90%;
+            height: auto;
+            margin: 10px auto;
+            display: none;
+        }
+    
+        .logo img {
+            width: 100px;
+            height: auto;
+            margin: 0 auto;
+        }
+        .loginbox, .company {
+            text-align: center;
+        }
+    }

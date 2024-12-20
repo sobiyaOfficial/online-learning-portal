@@ -623,4 +623,168 @@ select:hover{
 .hidden{
     display: none;
 }
+@media screen and (max-width: 768px) {
+    .dashboard {
+        flex-direction: column;
+        height: auto;
+
+    }
+
+    .sidebar {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+
+    }
+
+    ul {
+        display: none;
+    }
+
+    .logout {
+        display: none;
+    }
+
+    .sidebar nav ul a {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    .topnav {
+
+        flex-direction: column;
+        align-items: start;
+        padding: 0px;
+    }
+
+    .icon {
+        display: none;
+
+    }
+
+    .topnav .input1 {
+        width: 90%;
+        margin: 10px 0;
+    }
+
+    .topnav .input1 input {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .topnav .bell {
+        margin: 10px 0;
+    }
+
+    .logoimg img {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0;
+    }
+
+    .centerbar {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .video {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .videapara {
+        font-size: 14px;
+    }
+
+    .progress {
+        margin-top: 15px;
+    }
+
+    .notes ul {
+        margin-top: 20px;
+        font-size: 13px;
+    }
+
+    .progress-section {
+        margin-top: 30px;
+    }
+
+    .progress-cards {
+        flex-direction: column;
+        gap: 20px;
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+
+    .card {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .rightbar {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .slidebar {
+        margin-top: 10px;
+    }
+
+    .special img {
+        height: 80px;
+        width: 100px;
+    }
+
+    .special h3 {
+        font-size: 18px;
+    }
+
+    .booking button {
+        font-size: 12px;
+        width: 80px;
+    }
+
+    .bookbox {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    .schedule {
+        margin: 10px 0;
+    }
+
+    .upcomeingli1 {
+        flex-direction: column;
+        padding: 10px;
+
+    }
+
+    .englishup {
+        font-size: 16px;
+        /* margin-left: 50px; */
+        margin-top: -20px;
+        text-align: center;
+
+    }
+
+
+    .lastpara {
+        font-size: 14px;
+    }
+
+    .modelcontent {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .savebtn,
+    .cancelbtn {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+}
 
