@@ -8,7 +8,6 @@ Welcome to the Online Learning Portal project! This README file will guide you t
 The Online Learning Portal is a web application designed to provide users with a seamless and interactive learning experience. It enables users to browse, enroll, and engage in various courses on different subjects, with features tailored to enhance accessibility and usability for both instructors and learners.🌐
 
 
-
 # 🔗Features:
 
 ## 1.User Authentication:📚🍂
