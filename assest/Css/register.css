@@ -1,0 +1,88 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+h1, h2, h3 {
+    font-family: 'Playfair Display', Georgia, serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background:linear-gradient(to right, rgba(237, 235, 235, 0.805) 50%,rgba(161, 179, 227, 0.57) 50%);
+    font-family: 'Roboto', Arial, sans-serif;
+}
+.container{
+    display: flex;
+    width: 80%;
+    height: 78%;
+    background-color:white;
+    box-shadow: 0 4px 8px rgba(0,0, 0,1);
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 30px;
+}
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.company img{
+    height: 500px;
+    width: 600px;
+}
+.logo img{
+    height: 60px;
+    width: 100px;
+    margin-bottom: 20px;
+    /* margin-top: -20px; */
+}
+form, .name{
+    text-align: center;
+    color: #777;
+    margin-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;
+}
+form input{
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 2px solid #555;
+    /* border-radius: 5px; */
+    font-weight: 600;
+    
+}
+form button{
+    width: 70%;
+    padding: 8px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 10px;
+    
+}
+form button:hover{
+    background-color: rgb(53, 53, 229);
+}
+form ,p{
+    margin-top: 10px;
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+}
+form a{
+    text-decoration: none;
+    color: blue;
+}

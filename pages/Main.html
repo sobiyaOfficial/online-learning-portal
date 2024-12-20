@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link rel="stylesheet" href="../assest/Css/Main.css">
+</head>
+
+<body>
+    <div class="dashboard">
+
+
+        <div class="sidebar">
+            <div class="logo"> <img src="../assest/images/mainlogo.png" alt="">
+                <h2>LEARN+</h2>
+            </div>
+            <nav>
+                <ul>
+                    <li><i class='bx bxs-dashboard'><a href="#">Dashboard</a></i></li>
+                    <li class="mycourse"><i class='bx bx-minus-front'></i><a href="#">My Course</a></li>
+                    <li><i class='bx bxs-calendar'></i><a href="#">Schedule</a></li>
+                    <li><i class='bx bxs-shopping-bag-alt'></i><a href="#">Homework</a></li>
+                    <li><i class='bx bxs-message-alt-minus'></i><a href="#">Message</a></li>
+                    <li><i class='bx bx-group'></i><a href="#">Group</a></li>
+                    <li><i class='bx bxs-cog'></i><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+            <div class="logout">
+                <i class='bx bx-log-out'></i>
+                <p>Logout</p>
+            </div>
+        </div>
+
+        <div id="container">
+
+            <div class="topnav">
+                <div class="icon"><i class='bx bx-menu'></i></div>
+                <div class="inputbar">
+                    <div class="input1">
+                        <i class='bx bx-search'></i>
+                        <input type="text" placeholder="Search">
+                    </div>
+                    <div class="bell"><i class='bx bx-bell'></i></div>
+                    <div class="logoimg">
+                        <img src="../assest/images/mainlogo.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="rightbar">
+
+                <div class="centerbar">
+
+                    <header>
+                        <h2>Data Science / Automatic Design System</h2>
+                    </header>
+                    <div class="video">
+                        <div class="videohead">
+                            <h3>Automation Effects</h3>
+                        </div>
+                        <div class="videapara">
+                            <p>11 Lesson</p>
+                            <p><i class='bx bx-stopwatch'></i>3 Hours</p>
+
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <h2>My progress</h2>
+                        <div class="notes">
+                            <ul>
+                                <li class="notesprogress">14 Completed</li>
+                                <li class="notesprogress1">2 in-Progress</li>
+                                <li class="notesprogress2">8 not yet start</li>
+                                <li class="notesprogress3">See all</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <section  class="course-list progress-section" >
+                        <div class="progress-cards">
+                          <div class="course card"  data-course="Course 1">
+                            <h4>Interaction - I</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, amet.</p>
+                            <p class="cardicon"><i class='bx bx-user'></i>Wadew Warren</p>
+                            <div class="time">
+                              <p><i class='bx bxs-calendar'></i>B classes</p>
+                              <p><i class='bx bxs-stopwatch'></i>50 Mins</p>
+                            </div>
+                            <div class="rating-container">
+                              <div class="stars" id="stars-course-1">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                              </div>
+                              <div>
+                                <p><span id="average-rating-course-1">0.0</span></p>
+                                
+                              </div>
+                              <div class="tooltip" id="tooltip-course-1">Rating: Not Given</div>
+                            </div>
+                            <div class="intera">
+                              <img src="../assest/images/mainInteraction.png" alt="">
+                              <p><span id="total-ratings-course-1">0</span></p>
+                              <i class='bx bx-chat'></i>
+                              </div>
+                            </div>
+            
+                            <div class="course card" data-course="Course 2">
+                              <h4>Interaction - II</h4>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, amet.</p>
+                              <p class="cardicon"><i class='bx bx-user'></i>Wadew Warren</p>
+                              <div class="time">
+                                <p><i class='bx bxs-calendar'></i>B2classes</p>
+                                <p><i class='bx bxs-stopwatch'></i>55 Mins</p>
+                              </div>
+                              <div class="rating-container">
+                                <div class="stars" id="stars-course-2">
+                                  <span class="star" data-value="1">★</span>
+                                  <span class="star" data-value="2">★</span>
+                                  <span class="star" data-value="3">★</span>
+                                  <span class="star" data-value="4">★</span>
+                                  <span class="star" data-value="5">★</span>
+                                </div>
+                                <div>
+                                  <p><span id="average-rating-course-2">0.0</span></p>
+                                  
+                                </div>
+                                <div class="tooltip" id="tooltip-course-2">Rating: Not Given</div>
+                              </div>
+                              <div class="intera">
+                                <img src="../assest/images/mainInteraction.png" alt="">
+                                <p><span id="total-ratings-course-2">0</span></p>
+                                <i class='bx bx-chat'></i>
+                                </div>
+                              </div>
+            
+                          <div class="course card"  data-course="Course 3">
+                            <h4>Interaction - II</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, amet.</p>
+                            <p class="cardicon"><i class='bx bx-user'></i>Wadew Warren</p>
+                            <div class="time">
+                              <p><i class='bx bxs-calendar'></i>B3classes</p>
+                              <p><i class='bx bxs-stopwatch'></i>45 Mins</p>
+                            </div>
+                            <div class="rating-container">
+                              <div class="stars" id="stars-course-3">
+                                <span class="star" data-value="1">★</span>
+                                <span class="star" data-value="2">★</span>
+                                <span class="star" data-value="3">★</span>
+                                <span class="star" data-value="4">★</span>
+                                <span class="star" data-value="5">★</span>
+                              </div>
+                              <div>
+                                <p><span id="average-rating-course-3">0.0</span></p>
+                                
+                              </div>
+                              <div class="tooltip" id="tooltip-course-3">Rating: Not Given</div>
+                            </div>
+                            <div class="intera">
+                              <img src="../assest/images/mainInteraction.png" alt="">
+                              <p><span id="total-ratings-course-3">0</span></p>
+                              <i class='bx bx-chat'></i>
+                              </div>
+                            </div>
+            
+            
+                        </div>
+            
+                      </section>
+                </div>
+                <!-- Right bar -->
+                <div class="slidebar">
+                    <div class="book"id="bookNowBtn">
+                        <h3>My Special Classes</h3>
+                        <div class="booking" id="booknowbtn" class="bookbutton">
+                            <i class='bx bxs-calendar'></i>
+                            <button>Book Now</button>
+                        </div>
+
+
+                        <!-- using js -->
+                        <div id="clickopen" class="model">
+                                <div class="modelcontent">
+                                    <span class="closebtn" id="closemodel">&times;</span>
+                                    <h2>📅 Special classes Booking</h2>
+                                    <form id="bookingForm">
+                                        <label for="course">Select Course</label>
+                                        <select name="" id="course">
+                                            <option >English Course</option>
+                                            <option >Physical Course</option>
+                                            <option >Mathematic Course</option>
+                                            <option >Advanced Data science plus</option>
+                                        </select>
+
+                                        <label for="trainee">Select Trainee</label>
+                                            <select name="" id="trainee">
+                                                <option >James cooks</option>
+                                                <option >Vignesh Prabhu</option>
+                                            </select>
+
+                                         <label for="date">Select Date</label> 
+                                         <input type="date" id="date"> 
+
+                                         <label for="slot">Select slot Timing</label>
+                                         <select name="" id="slot">
+                                            <option value="">30 mins</option>
+                                            <option value="">1 hour</option>
+                                         </select>
+
+                                         <div class="formbutton">
+                                            <button type="button" class="cancelbtn" id="cancelBtn">Cancel</button>
+                                            <button type="submit" class="savebtn">Save</button>
+                                         </div>  
+                                    </form>
+                                </div>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <!--  -->
+                    <div id="confirmationCard" class="card1 hidden">
+                        <!-- <h3>My Special Classes</h3> -->
+                        <p><Strong>Advance Data Science plus</Strong></p>
+                        <p>Trainee James cook</p>
+                        <p>Date: <span id="selecteddate"></span></p>
+                        <p>Duration:30 Mins</p>
+                        <button id="editbtn">Edit</button>
+
+                    </div>
+
+
+
+                    <div class="bookbox">
+                        <div class="special">
+                            <h3>You don't have special Booking !</h3>
+                            <img src="../assest/images/mainBooknow.png" alt="">
+                            <div class="calender">
+                                <button><i class='bx bxs-book-add'></i>
+                                    Book Now</button>
+                                </div>
+                            <p>We noticed that the "Special Booking" feature
+                                is currently not being utilized</p>
+                        </div> 
+                    </div>
+
+                    <div class="schedule">
+                        <h3>Schedule-upcoming</h3>
+                        <div class="upcomeingli1">
+                            <div class="circlepoint">
+                                <i class='bx bxs-circle'></i>
+                            </div>
+                            <div class="englishup">
+                                <h3>English Classes</h3>
+                                <p>Tika sarak s.pd</p>
+                            </div>
+                            <div class="sidearrowto">
+                                <i class='bx bx-chevron-right'></i>
+                            </div>
+                        </div>
+                        <div class="upcomeingli1">
+                            <div class="circlepoint">
+                                <i class='bx bxs-circle'></i>
+                            </div>
+                            <div class="englishup">
+                                <h3>Physical classes</h3>
+                                <p>Tika sarak s.pd</p>
+                            </div>
+                            <div class="sidearrowto">
+                                <i class='bx bx-chevron-right'></i>
+                            </div>
+                        </div>
+                        <div class="upcomeingli1">
+                            <div class="circlepoint">
+                                <i class='bx bxs-circle widthi'></i>
+                            </div>
+                            <div class="englishup">
+                                <h3>Mathematic classes</h3>
+                                <p>Tika sarak s.pd</p>
+                            </div>
+                            <div class="sidearrowtomaths">
+                                <i class='bx bx-chevron-right'></i>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="finaldiv">
+                        <h3>Your Assignments</h3>
+                        <div class="lastpara ">
+                            <h5>Lesson 1 : Tech ops of Data Science</h5>
+                        </div>
+                        <div class="lastpara">
+                            <h5>Lesson 4 : Motion and Force of power energy</h5>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+
+        <script src="../assest/Js/Main.js"></script>
+        <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
+</body>
+
+</html>
